@@ -8,36 +8,36 @@ public class Main
 	Scanner sc = new Scanner(System.in);
 	    
 	int x = sc.nextInt();
-	String dia;
+	String day;
 	    
         switch (x) {
             case 1:
-                dia = "Sunday";
+                day = "Sunday";
                 break;
             case 2:
-                dia = "Monday";
+                day = "Monday";
                 break;
             case 3:
-                dia = "Tuesday";
+                day = "Tuesday";
                 break;
             case 4:
-                dia = "Wednesday";
+                day = "Wednesday";
                 break;
             case 5:
-                dia = "Thursday";
+                day = "Thursday";
                 break;
             case 6:
-                dia = "Friday";
+                day = "Friday";
                 break;
             case 7:
-                dia = "Saturday";
+                day = "Saturday";
                 break;
             default:
-                dia = "Invalid value";
+                day = "Invalid value";
                 break;
         }
         
-        System.out.printf("Weekday: " + dia);
+        System.out.printf("Weekday: " + day);
         
 	sc.close();
 	}
