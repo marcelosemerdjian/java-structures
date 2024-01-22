@@ -25,3 +25,19 @@ public class Main
 	  System.out.println("lastIndexOf 'bc': " + j);
 	}
 }
+
+--------------------------------------------------------------------------------------------
+
+public class Main
+{
+	public static void main(String[] args) {
+		String s = "cats dogs horses cows";
+		
+		String[] vect = s.split(" ");
+		
+		System.out.println(vect[0]);
+		System.out.println(vect[1]);
+		System.out.println(vect[2]);
+		System.out.println(vect[3]);
+	}
+}
