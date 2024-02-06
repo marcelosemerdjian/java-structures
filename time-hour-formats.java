@@ -35,5 +35,6 @@ public class Program {
 				System.out.println(d08);
 				System.out.println(d09);												
 				System.out.println(d10);
-				System.out.println(d11);}
+				System.out.println(d11);
+	}
 }
